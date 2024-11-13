@@ -1,0 +1,47 @@
+# Node.js
+/node_modules/
+/npm-debug.log
+/yarn-debug.log
+/yarn-error.log
+
+# Environment variables file
+.env
+
+# Logs
+/logs
+*.log
+
+# Firebase Admin SDK keys
+/firebase-admin-keys.json
+
+# OS and IDE specific files
+.DS_Store
+Thumbs.db
+
+# Optional: If you are using VS Code or other editors
+.vscode/
+
+# Optional: Coverage reports
+/coverage/
+
+# Optional: Jest testing
+/jest-global-setup.js
+
+# Optional: NPM / Yarn lock files
+package-lock.json
+yarn.lock
+
+# Optional: Ignore build folders for front-end or other compiled output
+/dist/
+/build/
+
+# Ignore debug files from Nodemon
+pids/
+*.pid
+
+# Ignore any other temporary or build-related files you don't want in git
+*.bak
+*.swp
+
+
+/src/config/serviceAccountKey.json
